@@ -9,10 +9,18 @@ public class Reverse {
 		for (int i = word.length()-1 ; i >= 0 ; i--)
 		{
 			System.out.print(word.charAt(i));
+			
 			if (i == word.length() / 2) 
+			{
+				if (word.length() % 2 == 0 )
+				 {
+				mid = word.charAt(i-1);
+			}
+			else 
 			{
 				mid = word.charAt(i);
 			}
+		}
 		}
 		System.out.println();
 		System.out.println("The middle character is " + mid);
