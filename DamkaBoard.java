@@ -12,7 +12,10 @@ public class DamkaBoard {
 					for (int j = 0 ; j <n ; j++){ // prints n stars
 					System.out.print("* ") ;
 					}
-				System.out.println() ;
+					if (i % 2 == 0) {
+					System.out.print(" ") ;
+					}
+					System.out.println() ;
 		}
 	}
 }
