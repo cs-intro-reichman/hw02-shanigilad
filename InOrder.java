@@ -4,15 +4,12 @@
  */
 public class InOrder {
 	public static void main (String[] args) {
-		int first = (int) (Math.random() * 10) ;
-		System.out.print(first + " ");
-
-		int i = (int) (Math.random() * 10) ;
-		if (i >= first) {
-		System.out.print(i);
-
-		}
+		int b = (int) (Math.random() * 10) ; // generate a first random number
+		System.out.print(b + " ");
 		
-	
+		for (int i = (int) (Math.random() * 10) ; i >= b ; i = (int) (Math.random() * 10)) { // generate a new random number that i bigger than the first one 
+			 	System.out.print(i + " ") ; // prints the givven number
+			b = i ;
+	  		}
 	}
 }
