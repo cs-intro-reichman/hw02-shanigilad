@@ -18,6 +18,7 @@ public class DamkaBoard {
 					
 					}
 					}
+		/* Not good indentation, important to attend to it*/
 	}
 
 }
