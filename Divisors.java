@@ -10,6 +10,10 @@ public class Divisors {
 			System.out.println(i); 
 					}
 					i++;
-		}	
+		}
+		/* you should have used a for loop and not while,
+		when we need to run a finite number of iterations like n, we use for.
+  		for(int i = 0; i < n; i++)
+  		again bad indentation*/
 	}
 }
