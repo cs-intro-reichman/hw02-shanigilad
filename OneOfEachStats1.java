@@ -75,5 +75,6 @@ public class OneOfEachStats1 {
 						else if (n2 == n3 && n3 == n4) {
 						System.out.println("The most common number of children is 2.") ; 
 						}
+		/* same comments as OneOFEachStats.java */
 		}
 		}
