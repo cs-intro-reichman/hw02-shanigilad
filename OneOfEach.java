@@ -7,6 +7,8 @@ public class OneOfEach {
 	public static void main (String[] args) {
 		public class OneOfEachStats1 {
 	public static void main (String[] args) {
+	/* What is going on here? main inside a class 'OneOfEachStats1' that is inside a main inside a class 'OneOfEach'?
+	How did this happen? */	
 		int b = 0 ; 
 		int g = 0 ; 
 		String child = "" ; 
