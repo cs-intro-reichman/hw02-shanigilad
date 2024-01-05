@@ -79,7 +79,16 @@ public class OneOfEachStats {
 						}
 						else if (n2 == n3 && n3 == n4) {
 						System.out.println("The most common number of children is 2.") ; 
-						}
+		/* 1) bad indentation 
+		   2) it is bad practice to put loops inside an if-else statement
+		      we will have functions from now on so try to avoid this,
+		   3) too many if-else that could be avoided - it is considered a very bad practice to do as many if-else as you did.
+     		     you should have find a way to do it with a lot less if-else's.
+     	           4) all the code is kind of messy, not good. see the official solutions.
+		*/	
+			}
+
+		
 		//// In the previous version of this program, you used a statement like:
 		//// double rnd = Math.random();
 		//// Where "rnd" is the variable that stores the generated random value.
