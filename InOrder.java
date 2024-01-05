@@ -11,5 +11,9 @@ public class InOrder {
 			 	System.out.print(i + " ") ; // prints the givven number
 			b = i ;
 	  		}
+		/* Looks interesting, we didn't teach this kind of for loops use,
+		here it is better to use a while loop because you are iterating 'as long as they form a non-decreasing sequence'
+		equivalent to saying  'while they form a non-decreasing sequence' */
+		
 	}
 }
